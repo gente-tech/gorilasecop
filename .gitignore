@@ -1,0 +1,45 @@
+# Dependencias administradas por Composer
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Archivos públicos y privados de Drupal
+/web/sites/*/files/
+/web/sites/*/private/
+/private/
+
+# Credenciales y configuración local
+/web/sites/*/settings.php
+/web/sites/*/settings.local.php
+/web/sites/*/services.yml
+/.env
+/.env.*
+!/.env.example
+
+# Dependencias frontend
+/node_modules/
+/web/themes/custom/*/node_modules/
+/web/modules/custom/*/node_modules/
+
+# Backups
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.bak
+*.backup
+*.log
+/tmp/
+/backup/
+/backups/
+
+# Editores y sistema operativo
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
